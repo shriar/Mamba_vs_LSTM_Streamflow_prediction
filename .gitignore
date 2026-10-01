@@ -1,0 +1,44 @@
+# --- Run outputs (archived separately; see README, Data and outputs) ---------
+output 7 -- full run -- LSTM and Mamba/
+output 8 --- LSTM and mamba run with alternate hyperparamter/
+output 9 --- rho 1095/
+output 10 --- epoch 60/
+output*/
+outputs.zip
+archive/
+*.log
+
+# --- Cached CAMELS downloads and derived arrays -----------------------------
+# Fetched on demand by data_utils.py; several hundred MB.
+training_file
+validation_file
+*.pkl
+*.npy
+camels_inputs/
+camels_obs/
+camels_const/
+
+# --- Generated figures and their data CSVs ----------------------------------
+figures/
+figures - Results/
+other figures/
+Other Figures/
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- Editors and OS ----------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Agent and local tooling -------------------------------------------------
+.engram/
+.opencode/
+obsidian/

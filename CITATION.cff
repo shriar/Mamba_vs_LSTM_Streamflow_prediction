@@ -1,0 +1,80 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper as below."
+title: "Can Mamba match LSTM for daily streamflow prediction? A parameter- and depth-matched benchmark on 671 CAMELS basins"
+abstract: >-
+  Reference implementation for a capacity-matched benchmark of a Mamba-3
+  Static-Dynamic Adapter against a CuDNN LSTM for daily rainfall-runoff
+  simulation on 671 CAMELS basins. Includes the training and evaluation
+  pipeline, a cluster-level blocked permutation test, and the figure and
+  table generation code for the manuscript.
+type: software
+authors:
+  - family-names: Shahriar
+    given-names: Md
+license: MIT
+repository-code: "https://github.com/shriar/Mamba_vs_LSTM_Streamflow_prediction"
+url: "https://doi.org/10.5281/zenodo.23087719"
+keywords:
+  - streamflow prediction
+  - rainfall-runoff modeling
+  - state space models
+  - Mamba
+  - LSTM
+  - hydrology
+  - deep learning
+references:
+  - type: article
+    title: "Can Mamba match LSTM for daily streamflow prediction? A parameter- and depth-matched benchmark on 671 CAMELS basins"
+    authors:
+      - family-names: Shahriar
+        given-names: Md
+    journal: "Journal of Hydrology"
+    year: 2026
+  - type: article
+    title: "Development of a large-sample watershed-scale hydrometeorological data set for the contiguous USA"
+    authors:
+      - family-names: Newman
+        given-names: Andrew J.
+      - family-names: Clark
+        given-names: Martyn P.
+      - family-names: Sampson
+        given-names: William
+      - family-names: Wood
+        given-names: Andrew
+      - family-names: Hay
+        given-names: Laura E.
+      - family-names: Bock
+        given-names: Andreas
+      - family-names: Viger
+        given-names: Raphael
+      - family-names: Blodgett
+        given-names: David
+      - family-names: Brekke
+        given-names: Larry
+      - family-names: Arnold
+        given-names: James R.
+      - family-names: Mizukami
+        given-names: Naoki
+    journal: "Geoscientific Model Development"
+    volume: 8
+    issue: 2
+    pages: 529-547
+    year: 2015
+    doi: "10.5194/gmd-8-529-2015"
+  - type: article
+    title: "The CAMELS data set: catchment attributes and meteorology for large-sample studies"
+    authors:
+      - family-names: Addor
+        given-names: Nans
+      - family-names: Newman
+        given-names: Andrew J.
+      - family-names: Mizukami
+        given-names: Naoki
+      - family-names: Clark
+        given-names: Martyn P.
+    journal: "Hydrology and Earth System Sciences"
+    volume: 21
+    issue: 10
+    pages: 5293-5313
+    year: 2017
+    doi: "10.5194/hess-21-5293-2017"

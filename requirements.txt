@@ -1,0 +1,24 @@
+# Core numerics and data handling
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+
+# Deep learning
+# The submitted results were produced with torch 2.13.0 + CUDA 13.0.
+torch>=2.1
+
+# CAMELS loading, and the LSTM wrapper used as the baseline
+hydroDL>=1.0
+
+# Mamba-3 selective state space kernels. These build CUDA extensions at install
+# time and are the most common source of install failures; see README for notes.
+mamba-ssm>=2.0
+causal-conv1d>=1.2
+
+# Training loop and plotting
+tqdm>=4.65
+matplotlib>=3.7
+requests>=2.31
+
+# Only needed by plot_camels_conus_distribution.py
+geopandas>=0.14
