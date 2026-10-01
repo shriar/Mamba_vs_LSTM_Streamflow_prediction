@@ -305,16 +305,6 @@ in hand can see them directly.
 
 ---
 
-## Data
-
-CAMELS (Newman et al., 2015; Addor et al., 2017) is distributed by NCAR at
-<https://ral.ucar.edu/solutions/products/camels> and is downloaded
-automatically on first use. It is not redistributed here.
-
-Daymet forcings are used as distributed with CAMELS.
-
----
-
 ## License
 
 MIT. See `LICENSE`.
