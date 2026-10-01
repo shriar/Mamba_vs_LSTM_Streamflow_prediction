@@ -315,29 +315,6 @@ Daymet forcings are used as distributed with CAMELS.
 
 ---
 
-## Citation
-
-If you use this code or the results it produces, please cite the paper. See
-`CITATION.cff`, or:
-
-```bibtex
-@article{shahriar_mamba_lstm_camels,
-  title  = {Can Mamba match LSTM for daily streamflow prediction? A
-            parameter- and depth-matched benchmark on 671 CAMELS basins},
-  author = {Shahriar, Md.},
-  journal = {Journal of Hydrology},
-  year   = {2026}
-}
-```
-
-Replace the journal, volume, and DOI with the final versions once published.
-
-`CITATION.cff` currently carries no `repository-code`, no archive `url`, and no
-paper `doi`, because none of those identifiers exist yet. All three are optional
-in the CFF schema, so the file is valid as it stands and GitHub will render the
-citation. Add them once you have the repository URL, the Zenodo DOI, and the
-paper DOI, so the citation resolves to real records rather than to placeholders.
-
 ## License
 
 MIT. See `LICENSE`.
